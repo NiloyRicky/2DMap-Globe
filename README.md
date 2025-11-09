@@ -1,16 +1,75 @@
-# React + Vite
+# 🌍 3D Globe with Interactive Sports Pins
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project displays a **3D Rotatable Earth** built using **React Three Fiber**, with **hoverable pins** representing famous athletes across the world.  
+When you hover on a pin, a **floating card** appears showing their image, name, team, and country.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🎮 Live Demo  
+👉 https://3d-globe-card.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+|-----------|---------|
+| React + Vite | Frontend framework and bundler |
+| @react-three/fiber | 3D rendering in React |
+| @react-three/drei | Useful helpers (OrbitControls, Html, etc.) |
+| Three.js | WebGL 3D engine |
+| CSS | UI styling |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 📸 Preview
+
+### 📸 Screenshots
+
+<div align="center">
+
+<img src="./globe.png" alt="3D Globe View" width="450" style="border-radius:10px; margin:10px;" />
+
+<br/>
+
+<img src="./globe-v.png" alt="Hover Card Tooltip" width="450" style="border-radius:10px; margin:10px;" />
+
+<br/>
+<img src="./globe-CR7.png" alt="Hover Card Tooltip" width="450" style="border-radius:10px; margin:10px;" />
+
+</div>
+
+
+---
+
+### Installation Guide
+
+
+---
+
+### 🔧 Setup & Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/NiloyRicky/2DMap-Globe.git
+
+# Go inside the project
+cd 2DMap-Globe
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+Feel free to fork this repo and submit a pull request.
+
+🧑‍💻 Author
+
+Made with ❤️ by YOUR NAME
+
