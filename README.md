@@ -28,7 +28,7 @@ When you hover on a pin, a **floating card** appears showing their image, name, 
 
 <div align="center">
 
-<img src="./public/globe.png" alt="3D Globe View" width="450" style="border-radius:10px; margin:10px;" />
+<img src="./public/globe.png" alt="3D Globe View" width="450" style="border-radius:10px; margin-bottom:10px;" />
 
 <br/>
 
